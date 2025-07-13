@@ -1,0 +1,2 @@
+personal.newAccount("gbt-secure-password");
+miner.start(2);
