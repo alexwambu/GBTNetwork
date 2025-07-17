@@ -10,13 +10,24 @@
     "petersburgBlock": 0,
     "istanbulBlock": 0,
     "berlinBlock": 0,
-    "londonBlock": 0
-  },
-  "difficulty": "0x400",
-  "gasLimit": "8000000",
-  "alloc": {
-    "0xF7F965b65E735Fb1C22266BdcE7A23CF5026AF1E": {
-      "balance": "1000000000000000000000000000000"
+    "londonBlock": 0,
+    "clique": {
+      "period": 5,
+      "epoch": 30000
     }
-  }
+  },
+  "alloc": {
+    "0xf7f965b65e735fb1c22266bdce7a23cf5026af1e": {
+      "balance": "36000000000000000000000000000000000000"
+    }
+  },
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "difficulty": "0x1",
+  "extraData": "",
+  "gasLimit": "0x47b760",
+  "nonce": "0x0",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "timestamp": "0x00"
 }
+
